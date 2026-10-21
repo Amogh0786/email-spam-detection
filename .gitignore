@@ -1,8 +1,21 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Virtual environments
 venv/
 .venv/
-.ipynb_checkpoints/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing cache
 .pytest_cache/
-*.pkl
+.coverage

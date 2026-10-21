@@ -1,0 +1,28 @@
+{
+  "project_title": "Intelligent Email Spam Detection Using Machine Learning and Natural Language Processing",
+  "institution": "Sreyas Institute of Engineering and Technology",
+  "department": "Department of Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+  "student_author": "GANTA BALA AMOGH RAJ",
+  "github_repository": "https://github.com/Amogh0786/email-spam-detection",
+  "ml_task": "Binary Text Classification (Ham vs. Spam)",
+  "dataset_provenance": {
+    "name": "SMS and Email Spam Benchmark Corpus",
+    "source": "UCI Machine Learning Repository / Enron Open Archive",
+    "samples": 5572,
+    "class_distribution": {
+      "ham": 4825,
+      "spam": 747,
+      "ham_percentage": 86.6,
+      "spam_percentage": 13.4
+    }
+  },
+  "champion_model": "Multinomial Naive Bayes with Laplace Smoothing (alpha=0.2)",
+  "benchmark_metrics": {
+    "accuracy": 0.9865,
+    "precision": 0.9926,
+    "recall": 0.9060,
+    "f1_score": 0.9474,
+    "roc_auc": 0.9880,
+    "false_positives": 1
+  }
+}
