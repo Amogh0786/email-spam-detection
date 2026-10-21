@@ -19,3 +19,6 @@ env/
 # Testing cache
 .pytest_cache/
 .coverage
+
+# Microsoft Word lock files
+~$*
