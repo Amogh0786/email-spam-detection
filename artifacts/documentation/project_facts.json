@@ -1,9 +1,21 @@
 {
-  "project_title": "Intelligent Email Spam Detection Using Machine Learning and Natural Language Processing",
+  "project_title": "EMAIL SPAM DETECTION",
   "institution": "Sreyas Institute of Engineering and Technology",
   "department": "Department of Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
-  "student_author": "GANTA BALA AMOGH RAJ",
-  "github_repository": "https://github.com/Amogh0786/email-spam-detection",
+  "team_members": [
+    {
+      "name": "GANTA BALA AMOGH RAJ",
+      "roll_number": "24VE1A6681",
+      "role": "Team Lead & ML Architect"
+    },
+    {
+      "name": "DOMA AJAY",
+      "roll_number": "24VE1A6677",
+      "role": "Team Member & Data/Preprocessing Analyst"
+    }
+  ],
+  "course": "Machine Learning (CSE - AI & ML)",
+  "academic_year": "2025–2026",
   "ml_task": "Binary Text Classification (Ham vs. Spam)",
   "dataset_provenance": {
     "name": "SMS and Email Spam Benchmark Corpus",
